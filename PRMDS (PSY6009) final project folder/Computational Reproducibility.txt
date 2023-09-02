@@ -1,0 +1,69 @@
+Computational Reproducibility
+Environment Details:
+	•	R Version: 4.2.2
+	•	Operating System: MacOS Monterey version 12.6.3
+	•	IDE: RStudio Version 2023.06.2+561
+ 
+ 
+1.     Packages and Libraries Used:
+2.     haven
+·      Used for reading and writing SPSS, Stata, and SAS files 
+·      Version: 2.5.3
+·      Citation: Wickham H, Miller E, Smith D (2023). _haven: Import and Export 'SPSS', 'Stata' and 'SAS' Files_. R package version 2.5.3, <https://CRAN.R-project.org/package=haven>.
+3.     dplyr
+·      A grammar of data manipulation
+·      Version: 1.1.2
+·      Citation: Wickham H, François R, Henry L, Müller K, Vaughan D (2023). _dplyr: A Grammar of Data Manipulation_. R package version 1.1.2, <https://CRAN.R-project.org/package=dplyr>.
+4.     ggplot2
+·      System for declaratively creating graphics.
+·      Version: 3.3.5
+·      Citation: Wickham, H. (2016). ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York. https://ggplot2.tidyverse.org
+5.     car
+·      Companion to applied regression.
+·      Version: 3.1.2
+·      Citation: Fox J, Weisberg S (2019). _An R Companion to Applied Regression_, Third edition. Sage, Thousand Oaks CA. <https://socialsciences.mcmaster.ca/jfox/Books/Companion/>.
+6.     purrr
+·      Functional programming tools
+·      Version: 1.0.1
+·      Citation: (Wickham H, Henry L (2023). _purrr: Functional Programming Tools_. R package version 1.0.1, <https://CRAN.R-project.org/package=purrr>.)
+7.     moments
+·      Provides functions to compute skewness, kurtosis.
+·      Version: 0.14.1
+·      Citation: Komsta L, Novomestky F (2022). _moments: Moments, Cumulants, Skewness, Kurtosis and Related Tests_. R package version 0.14.1, <https://CRAN.R-project.org/package=moments>.
+8.     coefplot
+·      Plots coefficients from model objects 
+·      Version: 1.2.8
+·      Citation: Lander JP (2022). _coefplot: Plots Coefficients from Fitted Models_. R package version 1.2.8, <https://CRAN.R-project.org/package=coefplot>.
+9.     corrplot
+·      Used for visualization of a correlation matrix
+·      Version: 0.92
+·      Citation: Taiyun Wei and Viliam Simko (2021). R package 'corrplot': Visualization of a Correlation Matrix (Version 0.92). Available from https://github.com/taiyun/corrplot
+10.  viridis 
+·      Colour scale for plots
+·      Version: 0.6.4
+·      Citation: Simon Garnier, Noam Ross, Robert Rudis, Antônio P. Camargo, Marco Sciaini, and Cédric Scherer (2023). viridis(Lite) - Colorblind-Friendly Color Maps for R. viridis package version 0.6.4.
+ 
+11.  gridExtra,
+·      Used to bring multiple plots togethor
+·      Version: 2.3
+·      Citation: Auguie B (2017). _gridExtra: Miscellaneous Functions for "Grid" Graphics_. R package version 2.3, <https://CRAN.R-project.org/package=gridExtra>.
+ 
+12.  Broom 
+ 
+·      Version: 1.0.5
+·      Robinson D, Hayes A, Couch S (2023). _broom: Convert Statistical Objects into Tidy Tibbles R package version 1.0.5, <https://CRAN.R-project.org/package=broom>.
+ 
+13.  Grid
+·      R Core Team (2022). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/.
+ 
+Data Handling and Processing:
+	•	Data is loaded from an SPSS file named "ATP W42.sav".
+	•	Data cleaning involves replacing '99' coded values with NA for missing values.
+	•	Data is split based on the "FORM_W42" variable into two subsets.
+	•	Listwise deletion is used to handle missing values for different scientist groups and create a further subset of data for each scientist group.
+	•	Reverse coding is applied to all variables for ease of interpretation.
+Statistical Analysis:
+	•	Univariate and bivariate statistics are computed for variables of interest.
+	•	Checks for linearity and multicollinearity are conducted.
+	•	Multiple linear regression models are run for different scientist groups with weights applied using the "WEIGHT_W42" variable.
+	•	Model assumption checks include homoscedasticity, normality, and outlier detection.
