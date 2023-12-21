@@ -13,10 +13,16 @@ Contents:
 2. `README.txt`: Provides a brief description of the project, it's purpose, and the contents of each folder.
    
 3. `raw` folder: This folder is intended to house the raw data file. However, data used for this project cannot be shared publicly but can be downloaded by request via this link: https://www.pewresearch.org/science/dataset/american-trends-panel-wave-42/
-If you reading via Github this folder will be empty, 
+If reading via Github this folder will be empty, 
 
 if you are reading this via a private google link then you will find files named:
-~$P W42 questionnaire.docx - word document format of the survey ATP W42 methodology.pdf - methodology of the survey our data came fromATP W42 questionnaire.pdf - Questionnaire used to obtain dataATP W42 readme.txt - a readme file explaining the filesATP W42 topline.pdf - toppline statement ATP W42.sav. - the raw data fileW42_Jan19 (1).zip - a zip file containing all of the above.
+~$P W42 questionnaire.docx - word document format of the survey 
+ATP W42 methodology.pdf - methodology of the survey our data came from
+ATP W42 questionnaire.pdf - Questionnaire used to obtain data
+ATP W42 readme.txt - a readme file explaining the files
+ATP W42 topline.pdf - toppline statement 
+ATP W42.sav. - the raw data file
+W42_Jan19 (1).zip - a zip file containing all of the above.
 
 4. processed: this folder will contain any processed data files needed for the analysis.
 
